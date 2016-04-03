@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="horizontal" >
+
+    <TableRow android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/ProgramName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/program_name"
+            android:textSize="40sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/crBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="CreateQR"
+            android:layout_weight="0.3"
+            android:text="Create" />
+
+        <Button
+            android:id="@+id/readBut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:onClick="ReadQR"
+            android:text="Read" />
+        
+    </TableRow>
+
+</TableLayout>

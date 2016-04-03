@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lazer Android</string>
+    <string name="reading_title">Reading QR code</string>
+    <string name="creating_title">Creating new QR code</string>
+    <string name="scan_label">Scan</string>
+    <string name="scan_result_label">Result: </string>
+    <string name="scan_process_label">Scanning…</string>
+ <string name="program_name">Lazer</string>
+</resources>
